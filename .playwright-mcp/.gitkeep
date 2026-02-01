@@ -1,0 +1,3 @@
+# This directory stores temporary Playwright screenshots
+# Files are automatically created when using /ctf to replicate websites
+# Screenshots are excluded from git (see .gitignore)
