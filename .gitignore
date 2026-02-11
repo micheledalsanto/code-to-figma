@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.js
+*.js.map
+*.d.ts
+!jest.config.js
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Figma plugin (published separately on Figma Community)
+figma-plugin/
+
+# Playwright screenshots (temporary files)
+.playwright-mcp/*.png
+.playwright-mcp/*.jpg
+.playwright-mcp/*.jpeg
+
+# Internal docs
+PRD.md
+
+# MCP server build
+mcp-server/dist/

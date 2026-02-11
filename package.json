@@ -1,0 +1,26 @@
+{
+  "name": "code-to-figma-plugin",
+  "version": "1.0.0",
+  "description": "Bidirectional plugin to convert screenshots to Figma designs via MCP",
+  "private": true,
+  "workspaces": [
+    "mcp-server",
+    "figma-plugin"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "build:mcp": "npm run build -w mcp-server",
+    "build:figma": "npm run build -w figma-plugin",
+    "dev:mcp": "npm run dev -w mcp-server",
+    "dev:figma": "npm run watch -w figma-plugin"
+  },
+  "keywords": [
+    "figma",
+    "mcp",
+    "claude",
+    "design",
+    "screenshot"
+  ],
+  "author": "",
+  "license": "MIT"
+}
